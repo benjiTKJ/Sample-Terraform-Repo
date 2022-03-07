@@ -8,9 +8,11 @@ terraform {
 }
 
 provider "aws" {
-  region = "${var.aws_provider}"
+  region    = "${var.aws_region}"
+  profile   = "${var.profile}"
 }
 
-variable aws_provider {
+variable "aws_region" {
     default = "ap-southeast-1"
 }
+
