@@ -1,4 +1,12 @@
 TestingLaunchJavaWebApp.ppk
 *.tfstate
+*.tfstate.*
 secretkey.txt
 /.aws
+.terraform.*
+.terraform/providers/*
+template/.terraform/providers/registry.terraform.io/hashicorp/aws/3.74.3/windows_amd64/terraform-provider-aws_v3.74.3_x5.exe
+template/.terraform/providers/registry.terraform.io/hashicorp/github/4.21.0/windows_amd64/CHANGELOG.md
+template/.terraform/providers/registry.terraform.io/hashicorp/github/4.21.0/windows_amd64/LICENSE
+template/.terraform/providers/registry.terraform.io/hashicorp/github/4.21.0/windows_amd64/README.md
+template/.terraform/providers/registry.terraform.io/hashicorp/github/4.21.0/windows_amd64/terraform-provider-github_v4.21.0.exe
