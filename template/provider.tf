@@ -17,6 +17,5 @@ variable "aws_region" {
 }
 
 provider "github" {
-  token        = "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"
   organization = "benjiTKJ"
 }
